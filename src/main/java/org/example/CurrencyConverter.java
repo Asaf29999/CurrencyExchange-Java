@@ -36,8 +36,6 @@ public class CurrencyConverter {
             double amountDouble = Double.parseDouble(amount);
             convertedAmount = amountDouble * value;
 
-            // Return the converted amount as a string
-
         } catch (IOException e) {
             e.printStackTrace();
         }
